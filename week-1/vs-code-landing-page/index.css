@@ -28,7 +28,7 @@ a {
     right: 0;
     z-index: 9;
     border-bottom: 0.5px solid rgb(74, 73, 73);
-    background-color: #0e0e0e; /* Ensure the navbar has a background color to cover content behind it */
+    background-color: #0e0e0e; 
   }
   
   .navbar .leftNav {
@@ -120,3 +120,6 @@ a {
   
   .navbar .rightNav .inputBox:focus-within {
     border: 1px solid #0069b9; 
+  }
+
+  
