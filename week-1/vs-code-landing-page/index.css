@@ -31,3 +31,92 @@ a {
     background-color: #0e0e0e; /* Ensure the navbar has a background color to cover content behind it */
   }
   
+  .navbar .leftNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+  }
+  
+  .navbar .leftNav .logo {
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #e9eaeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .navbar .leftNav .logo img {
+    width: 26px;
+    height: 26px;
+  }
+  
+  .navbar .leftNav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+  }
+  
+  .navbar .leftNav ul li a {
+    text-decoration: none;
+    color: #9ba3b4;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .navbar .leftNav ul li a:hover {
+    color: #e9eaeb;
+  }
+  
+  .navbar .rightNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .navbar .rightNav .lightMode {
+    cursor: pointer;
+  }
+  
+  .navbar .rightNav .lightMode:hover {
+    background-color: rgb(44, 44, 44);
+    border-radius: 20%;
+  }
+  
+  .navbar .rightNav .inputBox {
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: 0.1px solid #5a5a5b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    opacity: 0.6;
+  }
+  
+  .navbar .rightNav .inputBox i {
+    color: white;
+    cursor: pointer;
+  }
+  
+  .navbar .rightNav .inputBox input {
+    border: none;
+    outline: none;
+    background-color: #0e0e0e;
+    font-size: 15px;
+    width: 150px;
+  }
+  
+  ::placeholder {
+    color: white;
+  }
+  
+  .navbar .rightNav .inputBox:focus-within {
+    border: 1px solid #0069b9; 
